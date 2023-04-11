@@ -11,7 +11,7 @@ defmodule Cuid2.MixProject do
       name: "cuid2",
       package: [
         licenses: ["MIT"],
-        links: ["https://github.com/joseph-lozano/cuid2"],
+        links: [],
         source_url: "https://github.com/joseph-lozano/cuid2"
       ],
       description: """
