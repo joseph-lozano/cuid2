@@ -4,10 +4,21 @@ defmodule Cuid2.MixProject do
   def project do
     [
       app: :cuid2,
-      version: "0.1.0",
-      elixir: "~> 1.14",
+      version: "0.0.1",
+      elixir: "~> 1.11",
       start_permanent: Mix.env() == :prod,
-      deps: deps()
+      deps: deps(),
+      name: "cuid2",
+      package: [
+        licenses: ["MIT"],
+        links: ["https://github.com/joseph-lozano/cuid2"],
+        source_url: "https://github.com/joseph-lozano/cuid2"
+      ],
+      description: """
+      An Elixir implementation of cuid2
+
+      See https://github.com/paralleldrive/cuid2
+      """
     ]
   end
 
