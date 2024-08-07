@@ -29,7 +29,7 @@ defmodule Cuid2 do
     |> sha3_512()
     |> Integer.to_string(36)
     |> String.downcase()
-    |> String.slice(1..-1)
+    |> String.slice(1..-1//1)
   end
 
   def create_fingerprint(random \\ :rand.uniform() / 0) do
